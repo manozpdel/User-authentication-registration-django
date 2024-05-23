@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007BFF;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 60px; /* Adjusted to accommodate the fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust as needed */
+}
+.form-container h1 {
+    margin-left: 150px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.auth-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.already-account {
+    margin-top: 20px; /* Adjust spacing as needed */
+    text-align: center;
+}
+
+.already-account a {
+    color: #0056b3; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.already-account a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007BFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 60px; /* Adjusted to accommodate the fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Subtracting navbar height */
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.auth-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
